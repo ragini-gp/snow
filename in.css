@@ -28,13 +28,13 @@ body{background-color: rgb(129, 193, 233);}
 .active{
     background-color: #566f9d;
 }
-li:hover{
+.b:hover{
     background-color: rgb(150, 127, 255);
 }
-/* .back img{
+.back img{
     height: 400px;
     width: 100%;
-} */
+}
 .sc{
     background-color: #134576;
 }
@@ -68,60 +68,6 @@ li:hover{
 }
 .im .fl figcaption:hover{
     color: white;
-}
-/* Styling the area of the slides */
-     
-#slideshow {
-    overflow: hidden;
-    height: 510px;
-    width: 100%;
-    margin: 0 auto;
-}
- 
-/* Style each of the sides
-with a fixed width and height */
- 
-.slide {
-    float: left;
-    height: 510px;
-    width: 728px;
-}
-
-.slide img{
-    height: 510px;
-}
- 
-/* Add animation to the slides */
- 
-.slide-wrapper {
-     
-    /* Calculate the total width on the
-  basis of number of slides */
-    width: calc(728px * 4);
-     
-    /* Specify the animation with the
-  duration and speed */
-    animation: slide 30s ease infinite;
-}
-/* Define the animation
-for the slideshow */
- 
-@keyframes slide {
-     
-    /* Calculate the margin-left for
-  each of the slides */
-    20% {
-        margin-left: 0px;
-    }
-    40% {
-        margin-left: calc(-728px * 1);
-    }
-    60% {
-        margin-left: calc(-728px * 2);
-    }
-    80% {
-        margin-left: calc(-728px * 3);
-    }
 }
 .li{
     background-color: #567a9d;
@@ -178,4 +124,22 @@ for the slideshow */
     /* height: 300px;
     width: 200px; */
     border: 2px solid green;
+}
+
+.wt .up{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.wt .up .par{
+    margin: 5%;
+}
+
+.wt .up img{
+    height: 70px;
+    width: 70px;
+    padding: 20px;
 }
