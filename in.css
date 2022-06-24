@@ -102,7 +102,7 @@ body{background-color: rgb(129, 193, 233);}
     border-radius: 10px ;
 }
 .wt{
-    height: 1500px;
+    /* height: 1500px; */
     background-color: white;
 }
 .wt .up{
