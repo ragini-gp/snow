@@ -179,7 +179,11 @@ body{background-color: rgb(129, 193, 233);}
 .wt .news h3{
     color:dodgerblue;
 }
+.wt .news h3:hover{
+    color: royalblue;
+    text-decoration: underline;
+}
 .wt .news a{
     text-decoration: none;
-    color:rgb(129, 193, 233);
+    color:royalblue;
 }
