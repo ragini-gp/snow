@@ -107,7 +107,7 @@ body{background-color: rgb(129, 193, 233);}
 }
 .wt .up{
     height: 180px;
-    border: 4px solid black;
+    /* border: 4px solid black; */
 }
 .wt .ev{
     background-color: #e5f1f0;
@@ -119,11 +119,6 @@ body{background-color: rgb(129, 193, 233);}
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-gap: 2rem;
-}
-.wt .ev .in{
-    /* height: 300px;
-    width: 200px; */
-    border: 2px solid green;
 }
 
 .wt .up{
@@ -142,4 +137,19 @@ body{background-color: rgb(129, 193, 233);}
     height: 70px;
     width: 70px;
     padding: 20px;
+}
+
+.wt .ev{
+    /* height: 300px;
+    width: 200px; */
+    height: 800px;
+}
+
+.wt .ev .in img{
+    height: 250px;
+    width: 300px;
+}
+
+.wt .ev .in h3{
+    color:dodgerblue;
 }
