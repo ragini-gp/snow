@@ -74,7 +74,7 @@ li:hover{
 #slideshow {
     overflow: hidden;
     height: 510px;
-    width: 728px;
+    width: 100%;
     margin: 0 auto;
 }
  
@@ -156,7 +156,7 @@ for the slideshow */
     border-radius: 10px ;
 }
 .wt{
-    height: 800px;
+    height: 1500px;
     background-color: white;
 }
 .wt .up{
@@ -165,8 +165,9 @@ for the slideshow */
 }
 .wt .ev{
     background-color: #e5f1f0;
-    height: 70%;
-    border: 2px solid red;
+    height: 600px;
+    /* border: 2px solid red; */
+    padding: 20px;
     width: 90%;
     margin: auto;
     display: grid;
