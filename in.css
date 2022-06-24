@@ -96,6 +96,8 @@ li:hover{
     height: 45px;
     width: 45%;
     border: 2px solid blue;
+    font-size: 25px;
     margin: 10px;
+    color: white;
     border-radius: 10px ;
 }
