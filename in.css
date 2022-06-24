@@ -1,5 +1,5 @@
 body{background-color: rgb(129, 193, 233);}
-.full{
+.bfull{
     width: 75%;
     margin: auto;
 }
@@ -136,17 +136,10 @@ body{background-color: rgb(129, 193, 233);}
 .wt .up img{
     height: 70px;
     width: 70px;
-    padding: 20px;
-}
-
-.wt .ev{
-    /* height: 300px;
-    width: 200px; */
-    height: 800px;
 }
 
 .wt .ev .in img{
-    height: 250px;
+    height: 170px;
     width: 300px;
 }
 
@@ -192,4 +185,38 @@ body{background-color: rgb(129, 193, 233);}
 .wt .news a{
     text-decoration: none;
     color:royalblue;
+}
+footer{
+    background-color: #002248;
+    /* height: 40px; */
+}
+.data .grii{
+    display: flex;
+    /* justify-content: space-between; */
+    padding: 10px;
+    color: white;
+}
+.data .grii .col{
+    /* height: 300px; */
+    width: 25%;
+    /* border: 2px solid red; */
+    margin-top: 30px;
+    margin: 20px;
+}
+.data .grii a{
+    color: rgb(170, 211, 238);
+    text-decoration: none;
+}
+.data .grii a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+.col li{
+    padding: 10px;
+    list-style: none;
+}
+.line{
+    background-color: rgb(170, 211, 238);
+    height: 0.1px;
+    width: 100%;
 }
