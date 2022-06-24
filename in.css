@@ -169,6 +169,7 @@ body{background-color: rgb(129, 193, 233);}
 .wt .news .right{
     /* margin: 10%; */
     /* border: 3px solid yellow; */
+    padding-right: 2%;
 }
 .date{
     font-size: 13px;
