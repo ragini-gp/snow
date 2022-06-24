@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!------------ GOOGLE FONTS ------------>
+    <link href="https://fonts.googleapis.com/css?family=Anton|Cabin|Lato|Fjalla+One|Montserrat|Roboto&display=swap"
+        rel="stylesheet">
+
+    <!------------ FONTS AWESOME ------------>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="in.css">
     <title>Document</title>
 </head>
@@ -13,12 +19,17 @@
         <!-- <ul> -->
             <img class="im1" src="icon.jpg" alt="">
             <li class="b">National Snow & Ice Data Center</li>
-            <li class="b"><img src="home1.png" alt="">
-            </li>
+            <li class="b active"><img src="home1.png" alt=""></li>
             <li class="b">DATA</li>
             <li class="b">RESEARCH</li>
             <li class="b">NEWS</li>
             <li class="b">ABOUT</li>
+            <li class="b">
+                    <form action="" id="search-form">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+            </li>
         <!-- </ul> -->
     </div>
         <div class="back">
@@ -28,38 +39,52 @@
             <h2>Scientific Data for Research</h2>
             <div class="im">
                 <div class="fl">
-                    <img src="snow (1).jpg" alt="">
-                    <h4>SNOW</h4>
+                    <figure>
+                        <img src="snow (1).jpg" alt="Trulli">
+                        <figcaption style="font-size: 15px;">SNOW</figcaption>
+                    </figure>
                 </div>
 
                 <div class="fl">
-                    <img src="gl (2).jpg" alt="">
-                    <h4>GLACIERS</h4>
+                    <figure>
+                        <img src="gl (2).jpg" alt="Trulli">
+                        <figcaption style="font-size: 15px;">GLACIERS</figcaption>
+                    </figure>
                 </div>
 
                 <div class="fl">
-                    <img src="ice (1).jpg" alt="">
-                    <h4>ICE SHEETS</h4>
+                    <figure>
+                        <img src="ice (1).jpg" alt="Trulli">
+                        <figcaption style="font-size: 15px;">ICE SHEETS</figcaption>
+                    </figure>
                 </div>
 
                 <div class="fl">
-                    <img src="sice.jpg" alt="">
-                    <h4>SEA ICE</h4>
+                    <figure>
+                        <img src="sice.jpg" alt="Trulli">
+                        <figcaption style="font-size: 15px;">SEA ICE</figcaption>
+                    </figure>
                 </div>
 
                 <div class="fl">
-                    <img src="sh.jfif" alt="">
-                    <h4>ICE SHELVES</h4>
+                    <figure>
+                        <img src="sh.jfif" alt="Trulli">
+                        <figcaption style="font-size: 15px;">ICE SHELVES</figcaption>
+                    </figure>
                 </div>
 
                 <div class="fl">
-                    <img src="soilm.jfif" alt="">
-                    <h4>SOIL MOISTURe </h4>
+                    <figure>
+                        <img src="soilm.jfif" alt="Trulli">
+                        <figcaption style="font-size: 15px;">SOIL MOISTURE </figcaption>
+                    </figure>
                 </div>
                 
                 <div class="fl">
-                    <img src="frox.jpg" alt="">
-                    <h4>FROZEN GROUND</h4>
+                    <figure>
+                        <img src="frox.jpg" alt="Trulli">
+                        <figcaption style="font-size: 15px;">FROZEN GROUND</figcaption>
+                    </figure>
                 </div>
                 
             </div>
@@ -67,8 +92,8 @@
         <div class="li">
             <div class="go">
                 
-                <input type="text" placeholder="Seacrh for data sets" class="wh1">
-                <div class="wh2">Select a data collection</div>
+                <input type="text" placeholder="Search for data sets" class="wh1">
+                <div class="wh2"><p style="margin: 2%; margin-left: 28%;">Select a data collection</p></div>
             </div>
         </div>
     </div>

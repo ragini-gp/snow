@@ -17,13 +17,19 @@ body{background-color: rgb(129, 193, 233);}
     color: white;
     list-style: none;
     margin: 10px;
-    padding: 25px;
+    padding: 15px;
 }
 .navbar .im1{
-    margin: 10px;
+    margin: 15px;
 }
 .navbar .b img{
     height: 40px;
+}
+.active{
+    background-color: #566f9d;
+}
+li:hover{
+    background-color: rgb(127, 140, 255);
 }
 .back img{
     height: 400px;
@@ -31,7 +37,6 @@ body{background-color: rgb(129, 193, 233);}
 }
 .sc{
     background-color: #134576;
-    
 }
 .sc h2{
     margin: auto;
@@ -39,19 +44,29 @@ body{background-color: rgb(129, 193, 233);}
     color: white;
     padding: 10px;
     margin-bottom: 20px;
+    color:lightgray;
     /* border: 2px solid red; */
 }
+.sc h2:hover{
+    color: white;
+}
 .im{
+    margin-left: 3%;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 .im .fl img{
     /* border: 2px solid red; */
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
 }
-.im .fl h4{
+.im .fl figcaption{
+    color:lightgray;
+    display: flex;
+}
+.im .fl figcaption:hover{
     color: white;
 }
 .li{
@@ -81,6 +96,8 @@ body{background-color: rgb(129, 193, 233);}
     height: 45px;
     width: 45%;
     border: 2px solid blue;
+    font-size: 25px;
     margin: 10px;
+    color: white;
     border-radius: 10px ;
 }
