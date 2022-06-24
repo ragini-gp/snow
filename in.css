@@ -209,7 +209,7 @@ footer{
 }
 .data .grii a:hover{
     text-decoration: underline;
-    color: blue;
+    color: rgb(92 101 237);
 }
 .col li{
     padding: 10px;
