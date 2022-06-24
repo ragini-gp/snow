@@ -154,13 +154,42 @@ body{background-color: rgb(129, 193, 233);}
     color:dodgerblue;
 }
 
+.wt .ev .in h3:hover{
+    color:royalblue;
+    text-decoration: underline;
+}
+
 .wt .news{
-    border: 3px solid blue;
     display: flex;
 }
 .wt .news .left{
-    border: 3px solid green;
+    padding-left: 50px;
+    padding-right: 20px;
 }
 .wt .news .right{
-    border: 3px solid orange;
+    /* margin: 10%; */
+    /* border: 3px solid yellow; */
+    padding-right: 2%;
+}
+.date{
+    font-size: 13px;
+    color:darkslategrey;
+}
+.ns{
+    padding-bottom: 30px;
+}
+.parag{
+    font-size: 16px;
+    color: darkslategrey;
+}
+.wt .news h3{
+    color:dodgerblue;
+}
+.wt .news h3:hover{
+    color: royalblue;
+    text-decoration: underline;
+}
+.wt .news a{
+    text-decoration: none;
+    color:royalblue;
 }
