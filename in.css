@@ -154,6 +154,11 @@ body{background-color: rgb(129, 193, 233);}
     color:dodgerblue;
 }
 
+.wt .ev .in h3:hover{
+    color:royalblue;
+    text-decoration: underline;
+}
+
 .wt .news{
     display: flex;
 }
