@@ -37,38 +37,91 @@ body{background-color: rgb(129, 193, 233);}
     position: relative;
 }
 
-.dropdown {
+.dropdown1 {
     background-color:steelblue;
-    padding: 1em 0;
+    /* padding: 1em 0; */
     position: absolute;
-    
+    left: 0px;
+    margin-left: -440px;
+    /* width: 100%; */
+    width: 1130px;
     /*WITH RESPECT TO PARENT*/
     display: none;
     border-radius: 8px;
     top: 35px;
-    height: 690px;
-    float: left;
+    /* height: 690px; */
+    /* float: left; */
+    /* border: 4px solid orange; */
+}
+.dropdown2 {
+    background-color:steelblue;
+    /* padding: 1em 0; */
+    position: absolute;
+    /* left: 0px; */
+    margin-left: -500px;
+    /* width: 100%; */
+    width: 1500px;
+    /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+    height: 2000px;
+    /* float: left; */
+    border: 4px solid orangered;
+}
+.dropdown3 {
+    background-color:steelblue;
+    /* padding: 1em 0; */
+    position: absolute;
+    left: 0px;
+    margin-left: -500px;
+    /* width: 100%; */
+    /* width: 1500px; */
+    /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+    /* height: 690px; */
+    /* float: left; */
+    border: 4px solid orange;
+}
+.dropdown4 {
+    background-color:steelblue;
+    /* padding: 1em 0; */
+    position: absolute;
+    left: 0px;
+    margin-left: -500px;
+    /* width: 100%; */
+    /* width: 1500px; */
+    /*WITH RESPECT TO PARENT*/
+    display: none;
+    border-radius: 8px;
+    top: 35px;
+    /* height: 690px; */
+    /* float: left; */
+    border: 4px solid orange;
 }
 
-.bar:hover .dropdown {
+.bar:hover .dropdown1, .bar:hover .dropdown2, .bar:hover .dropdown3, .bar:hover .dropdown4 {
     display: block; 
 }
 
-.dropdown .t{
+.dropdown1 .t{
     display: flex;
 }
 
 .t .tp{
-    border: 15px solid steelblue;
+    /* border: 15px solid aqua; */
+    margin-left: 100px;
 }
-.dropdown .d{
+.dropdown1 .d{
     padding-left: 15%;
 }
 .d p{
     color: white;
 }
 /* research dropdown */
-.dropdown .l{
+.dropdown2 .l{
     display: flex;
 }
 .bar:hover .dd_2{
