@@ -40,7 +40,9 @@ body{background-color: rgb(129, 193, 233);}
 .dropdown {
     background-color:steelblue;
     padding: 1em 0;
-    position: absolute;
+    /* position: absolute; */
+    width: 100%;
+    margin-top: 500px;
     /*WITH RESPECT TO PARENT*/
     display: none;
     border-radius: 8px;
