@@ -8,19 +8,26 @@ body{background-color: rgb(129, 193, 233);}
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     height: 80px;
     /* width: 75%; */
     margin: auto;
     /* width: 100%; */
 }
-.navbar li{
+.navbar li a{
     color: white;
-    list-style: none;
     margin: 10px;
     padding: 15px;
+    text-decoration: none;
+}
+.navbar li{
+    
+    list-style: none;
 }
 .navbar .im1{
     margin: 15px;
+    height: 40px;
+    width: 50px;
 }
 .navbar .b img{
     height: 40px;
@@ -69,37 +76,56 @@ body{background-color: rgb(129, 193, 233);}
 .im .fl figcaption:hover{
     color: white;
 }
-.li{
+.blu{
+    height: 85px;
     background-color: #567a9d;
-    height: 100px;
-}
-.li .go{
-    /* width: 80%; */
-    /* border: 2px solid red; */
-    margin: auto;
-    height: 90px;
     display: flex;
+}
+.blu .main{
+    display: flex;
+    height: 80%;
+    /* border: 2px solid red; */
     justify-content: center;
     align-items: center;
+    width: 90%;
+    margin: auto;
 }
-.li .wh1{
-    background-color: white;
-    height: 45px;
-    width: 45%;
-    border: 2px solid blue;
-    margin: 10px;
-    border-radius: 10px ;
-    /* width: 40%; */
+.main .b1, .main .b2{
+    /* border: 2px solid orange; */
+    /* margin: 10px; */
+    width: 48%;
+    height: 70%;
 }
-.li .wh2{
-    background-color: rgb(42, 138, 167);
-    height: 45px;
-    width: 45%;
-    border: 2px solid blue;
-    font-size: 25px;
-    margin: 10px;
+.b1 input{
+    height: 90%;
+    width: 82%;
+    font-size: 20px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    text-align: center;
+    border: none;
+    padding: 2px;
+}
+button{
+    height: 100%;
+    background-color: #7ab5da ;
     color: white;
-    border-radius: 10px ;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+}
+.main .b2 button{
+    width: 100%;
+    border-radius: 8px;
+}
+.main .b1 button{
+    width: 12%;
+    margin-left: -5px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.main .b1{
+    margin-right: 10px;
 }
 .wt{
     /* height: 1500px; */
@@ -209,7 +235,7 @@ footer{
 }
 .data .grii a:hover{
     text-decoration: underline;
-    color: blue;
+    color: rgb(92 101 237);
 }
 .col li{
     padding: 10px;
