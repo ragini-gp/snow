@@ -81,6 +81,26 @@ body{background-color: rgb(129, 193, 233);}
 .r{
     width: 200px;
 }
+.bar:hover .news_dd
+{
+    display: flex;
+    width: 800px;
+    height: 300px;
+}
+.ss{
+    width: 200px;
+    border: 15px solid steelblue;
+}
+.ss a{
+    align-items: left;
+}
+.bar:hover .about_dd{
+    display: flex;
+}
+.about2{
+    display: flex;
+    width: 300px;
+}
 /* Dropdown list css ends here */
 .active{
     background-color: #566f9d;
