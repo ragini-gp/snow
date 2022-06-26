@@ -156,12 +156,14 @@ button{
 }
 
 .wt .up .par{
-    margin: 5%;
+    margin: 8%;
 }
 
 .wt .up img{
     height: 70px;
     width: 70px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 
 .wt .ev .in img{
